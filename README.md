@@ -37,7 +37,7 @@ local currentPlayedAnimTable = {}
         for k, vv in pairs(v) do
             if vv == EmoteName then
                 table.insert(EmoteName, k)
-                break -- break thread when vv == EmoteName for prevent crash 
+                break -- break loop when vv == EmoteName for prevent crash 
             end
         end
     end
