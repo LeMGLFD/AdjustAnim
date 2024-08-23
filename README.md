@@ -2,8 +2,8 @@
 
 ## Dependencies
 
-- **ObjectGizmo**
-- **RPEmote**
+- **ObjectGizmo** : https://github.com/Demigod916/object_gizmo
+- **RPEmote** : https://github.com/LeMGLFD/rpemotes-reborn
 
 ## Compatibility
 
