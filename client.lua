@@ -29,21 +29,12 @@ local function adjustAnim()
 
             exports.object_gizmo:useGizmo(clonePed)
 
-            CreateThread(function()
-                while true do
-                    local clonePedPose = GetEntityCoords(clonePed)
-                    local retval, groundZ = GetGroundZFor_3dCoord(clonePedPose.x, clonePedPose.y, clonePedPose.z, false)
-                    if retval then
-                        SetEntityCoordsNoOffset(ped, clonePedPose.x, clonePedPose.y, groundZ, false, false, false)
-                        SetEntityHeading(ped, GetEntityHeading(clonePed))
-                        DeleteEntity(clonePed)
-                        exports["rpemotes"]:EmoteCommandStart(getPlayedAnim[4])
-                        FreezeEntityPosition(ped, false)
-                        break
-                    end
-                    Wait(500) 
-                end
-            end)
+            local clonePedPose = GetEntityCoords(clonePed)
+            SetEntityCoordsNoOffset(ped, clonePedPose.x, clonePedPose.y, clonePedPose.z, true, true, true)
+            SetEntityHeading(ped, GetEntityHeading(clonePed))
+            DeleteEntity(clonePed)
+            exports["rpemotes"]:EmoteCommandStart(getPlayedAnim[4])
+            FreezeEntityPosition(ped, false)   
         else
             print("Error: getAnim is nil")
         end
