@@ -7,7 +7,7 @@
 
 ## Compatibility
 
-This script is specifically designed to work with **RPEmote**:
+This script only work with **RPEmote**:
 
 - https://github.com/alberttheprince/rpemotes-reborn/releases/tag/v1.6.9
 
