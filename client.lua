@@ -1,3 +1,4 @@
+ss
 local function adjustAnim()
     local ped = PlayerPedId()
     local getIfPlayerPlayAnim = exports["rpemotes"]:IsPlayerInAnim()
