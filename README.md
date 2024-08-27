@@ -1,5 +1,9 @@
 # ADJUST YOUR POSITION WHEN YOU PLAY EMOTE WITH OBJECT GIZMO
 
+## Preview
+
+https://cdn.discordapp.com/attachments/1268202683177635870/1276556263727038506/2024-08-23_16-58-27.mp4?ex=66cf3b2a&is=66cde9aa&hm=ee6e81671608b191563d33841755122e41b660bf571bd72bb6ee1466bda04d21&
+
 ## Dependencies
 
 - **ObjectGizmo** : https://github.com/Demigod916/object_gizmo
